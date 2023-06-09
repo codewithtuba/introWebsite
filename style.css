@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+ /* background-image: linear-gradient(to right, rgb(0, 2, 14), rgb(0, 84, 180)); */
+ 
+}
+body {
+    background-image: linear-gradient(to right, rgb(0, 2, 14), rgb(0, 84, 180));
+    /* background: center cover cover no-repeat; */
+    /* overflow: hidden; */
+    /* width: 100vw;
+    height: 100vh; */
+}
+.main {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    margin: 24px;
+}
+
+.angle {
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(2, 176, 199);
+}
+.icon-heading {
+    font-weight: lighter;
+    color: rgb(2, 176, 199);
+    letter-spacing: 4px;
+}
+
+ul{
+    /* background: rgba(76, 175, 80, 0.1); */
+    background: rgba(255, 255, 255, 0.1);
+    /* background-color: yellow; */
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+li {
+    display: inline-block;
+    /* background: rgba(76, 175, 80, 0.1); */
+    padding: 19px;
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 18px; */
+    /* height: 20%; */
+}
+.text {
+    width: 40%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.text-image {
+    width: 50%;
+    height: 20%;
+}
+.name {
+    color: orangered;
+}
+.about {
+    text-align: center;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+}
+.tags {
+    text-align: center;
+}
+.order {
+    list-style-type: decimal;
+}
+.facebook {
+    color: greenyellow;
+    text-decoration-line: underline;
+}
+
+.menu-list {
+    display: flex;
+}
+.otherpage{
+    text-align: center;
+    font-size: 100;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1020px) {
+    
+    .main {
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        margin-top: 5px;
+    }
+    .text-image img {
+        width: 200px;
+        align-items: center;
+    }
+}
